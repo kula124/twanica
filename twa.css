@@ -6,22 +6,29 @@ body {
     margin: 0;
 }
 
+html, body {
+    height: 100%;
+}
+
+.naslovnica {
+    height: 50%;
+    background: url("./images/Mask\ Group\ 2.png");
+}
+
 .zaglavlje {
-    margin-top: 10px;
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
-
     align-items: center;
 }
 
 .zaglavlje img {
-    height: 70px;    
+    height: 70px;
 }
 
 .navigacija {
     height: 20px;
     margin-right: 30px;
-    border: 1px black solid;
     display: flex;
     justify-content: space-evenly;
     flex-flow: row;
@@ -30,7 +37,9 @@ body {
 .navigacija li {
     /*border: 1px solid gray;*/
     list-style: none;
-    border-right: 1px solid black;
+    color: white;
+    font-size: 18px;
+    text-shadow: 3px 2px 1px #000000;
     padding: 0 12px;   
 }
 
