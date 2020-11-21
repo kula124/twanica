@@ -1,49 +1,25 @@
-.title {
-    font-size: 30px;
-    color: black;
-    font-weight: bold;
-    width: 100%;
-    margin: 0;
-    padding: 10px 0;
-    text-align: center;
-    color: red;
-    background-color: black;
-    transition: color 1s ease-in-out
-}
-
-body h1:hover {
-    color: white;
-}
-
-body p {
-    /*text-align: center;*/
+.zaglavlje img {
+    display: block;
 }
 
 body {
     margin: 0;
+}
+
+.zaglavlje {
     display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
 }
 
-body img {
-    display: block;
-    width: 300px;
+.zaglavlje img {
+    height: 70px;    
 }
 
-.veceSlike {
-    width: 400px;
+.navigacija {
+    margin-left: auto;
+    padding-right: 30px;
+    border: 1px black solid;
 }
 
-.w400 {
-    width: 400px;
-}
-
-.h300 {
-    height: 300px;
-}
-
-.h400 {
-    height: 400px
+.navigacija li {
+    border: 1px solid gray;
 }
