@@ -2,20 +2,15 @@
     display: block;
 }
 
-body {
-    margin: 0;
-}
-
-html, body {
-    height: 100%;
-}
-
 .naslovnica {
     height: 50%;
     background: url("./images/Mask\ Group\ 2.png");
 }
 
 .zaglavlje {
+    width: 100%;
+    position: fixed;
+    top: 0;
     padding-top: 10px;
     display: flex;
     justify-content: space-between;
@@ -46,4 +41,14 @@ html, body {
     background-color: rgba(150, 150, 150, 0.2);
     cursor: pointer;
     border-bottom: white 2px solid;
+}
+
+.pageSection {
+    margin: 0 auto;
+    width: 30vw;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

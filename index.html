@@ -3,19 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <link href="twa.css" rel="stylesheet" />
+    <link href="global.css" rel="stylesheet" />
+    <script src="script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
     <section class="naslovnica">
       <section class="zaglavlje">
-        <img src="./images/twogo.png" alt="ovo je logo" />
+        <a href="/">
+          <img
+            onclick="idiNaVrh()"
+            src="./images/twogo.png"
+            alt="ovo je logo"
+          />
+        </a>
         <nav class="navigacija">
-          <li>About</li>
-          <li>Nesto</li>
+          <li onclick="idiNaAbout()">About</li>
+          <a>
+            <li onclick="idiNaNesto()">Nesto</li>
+          </a>
           <li>Drugo</li>
         </nav>
       </section>
+    </section>
+    <section class="pageSection" id="about">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis dolor
+        officiis fugit eaque beatae dolorum? Ea enim sint blanditiis, voluptatem
+        nulla voluptate obcaecati, alias tempora sed minima, illum repellendus
+        excepturi?
+      </p>
+    </section>
+    <section class="pageSection" id="nesto">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis dolor
+        officiis fugit eaque beatae dolorum? Ea enim sint blanditiis, voluptatem
+        nulla voluptate obcaecati, alias tempora sed minima, illum repellendus
+        excepturi?
+      </p>
+    </section>
+    <section class="pageSection" id="drugo">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis dolor
+        officiis fugit eaque beatae dolorum? Ea enim sint blanditiis, voluptatem
+        nulla voluptate obcaecati, alias tempora sed minima, illum repellendus
+        excepturi?
+      </p>
     </section>
   </body>
 </html>
